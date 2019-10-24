@@ -1,9 +1,9 @@
 // Controllers
-const sumMetrics = require('../src/controllers/sumMetrics.controller');
-const logEvent = require('../src/controllers/logEvent.controller');
+const sumMetrics = require('../../src/controllers/sumMetrics.controller');
+const logEvent = require('../../src/controllers/logEvent.controller');
 
 //Project Modules
-const Database = require('../src/modules/Database.module')
+const Database = require('../../src/modules/Database.module')
 
 //NPM Package for unit testing controllers
 const { Request } = require('jest-express/lib/request');

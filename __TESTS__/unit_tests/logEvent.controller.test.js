@@ -1,5 +1,5 @@
-const logEvent = require('../src/controllers/logEvent.controller');
-const Database = require('../src/modules/Database.module')
+const logEvent = require('../../src/controllers/logEvent.controller');
+const Database = require('../../src/modules/Database.module')
 const { Request } = require('jest-express/lib/request');
 const { Response } = require('jest-express/lib/response');
 
