@@ -14,7 +14,6 @@ Response (200)
 ```
 
 ## GET metric sum
-Returns the sum of all metrics reported for this key over the past hour.
 Request
 ```
 GET ​/metric/​{key}/sum
@@ -51,9 +50,15 @@ $ npm run build:develop
 ```
 .
 |-- __TESTS__
-|   |-- logEvent.controller.test.js
-|   |-- server.test.js
-|   |--metricLogger.api.test.js
+|   |-- integration_tests
+|       |-- metricLogger.api.test.js
+|       |-- sumMetrics.api.test.js
+|
+|   |-- unit_tests
+|       |-- Database.module.test.js
+|       |-- logEvent.controller.test.js
+|       |-- server.test.js
+|       |-- sumMetrics.controller.test.js
 |
 |-- .circleci
 |   |-- config.yml
@@ -69,7 +74,7 @@ $ npm run build:develop
 |   |-- routes
 |       |-- rest.api.routes.js
 |
-|       |-- server.ts
+|   |-- server.ts
 |
 |-- .babelrc
 |-- .gitignore
