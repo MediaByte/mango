@@ -1,0 +1,12 @@
+version: 2
+jobs:
+  build:
+    working_directory: ~/usr/src/mango
+    docker:
+      - image: circleci/node:12
+    steps:
+      - checkout
+      - run: echo "Installing packages"
+      - run: npm install
+      - run: echo "Running tests"
+      - run: CI=true npm test
