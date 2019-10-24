@@ -53,6 +53,7 @@ $ npm run build:develop
 |-- __TESTS__
 |   |-- logEvent.controller.test.js
 |   |-- server.test.js
+|   |--metricLogger.api.test.js
 |
 |-- .circleci
 |   |-- config.yml
@@ -74,7 +75,6 @@ $ npm run build:develop
 |-- .gitignore
 |-- package-lock.json
 |-- package.json
-|-- pg.env
 |-- README.md
 ```
 
