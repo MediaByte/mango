@@ -1,5 +1,5 @@
 
-const app = require('../src/modules/App.module.js');
+const app = require('../../src/modules/App.module.js');
 const request = require('supertest');
 
 describe('POST /metric/:key', () => {
