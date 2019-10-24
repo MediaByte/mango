@@ -66,6 +66,7 @@ $ npm run build:develop
 |-- src
 |   |-- controllers
 |       |-- logEvent.controller.js
+|       |-- sumMetrics.controller.js
 |
 |   |-- modules
 |       |-- App.module.js
